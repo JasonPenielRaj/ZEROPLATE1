@@ -1,0 +1,18 @@
+{
+  "name": "zeroplate-backend",
+  "version": "1.0.0",
+  "description": "ZeroPlate backend API with MongoDB",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^8.0.3",
+    "socket.io": "^4.8.3"
+  }
+}
